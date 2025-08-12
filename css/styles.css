@@ -1,0 +1,129 @@
+body {
+    padding:0px;
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+    align-items: center;  
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+section {
+    display: flex;
+    margin: 0px;
+    padding: 100px 300px;
+    box-sizing: border-box;
+}
+
+nav {
+    flex: 1;
+    margin: 0px;
+    padding: 20px 300px;
+    background-color: #1f2937;
+}
+
+p {
+    margin:0;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 7px 30px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+li.logo{
+    font-size: 24px;
+    color:#f9faf8;
+    
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding:0;
+}
+
+.spotlight {
+    padding-top: 150px;
+    gap: 64px;
+    background-color: #1f2937;
+}
+
+.spotlight-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.spotlight-image {
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    border-color: gray;
+    border: dotted;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding-top: 50px;
+    gap: 50px;
+}
+
+.projects h1{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.project-cards{
+    display: flex;
+    gap: 40px;
+}
+
+.project-image{
+    border-width: 4px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 15px;
+    width:200px;
+    height:200px;
+}
+
+.project-card-layout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}

@@ -58,6 +58,14 @@ h1 {
     font-weight: 900;
 }
 
+footer{
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 50px;
+    font-weight: lighter;
+}
+
 li.logo{
     font-size: 24px;
     color:#f9faf8;
@@ -88,8 +96,6 @@ li.logo{
     align-items: center;
     justify-content: center;
     color: gray;
-    border-color: gray;
-    border: dotted;
 }
 
 .projects{
@@ -121,9 +127,36 @@ li.logo{
     height:200px;
 }
 
+.project-card-layout img{
+    border-width: 4px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 15px;
+}
+
+.project-card-layout p{
+    color:#1f2937
+}
+
 .project-card-layout{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
+}
+
+.quote p{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: lighter;
+}
+
+.quote{
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.quote .signature{
+    align-self: flex-end;
 }
